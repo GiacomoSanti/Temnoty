@@ -9,22 +9,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="./img/photo (1).jpg" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Raleway"
+      href="https://fonts.googleapis.com/css?family=VT323"
     />
     <style>
       body,
       h1 {
-        font-family: "Raleway", sans-serif;
+        font-family: "VT323", sans-serif;
       }
       body,
       html {
         height: 100%;
       }
       .bgimg {
-        background-image: url("./img/forestbridge.jpg");
+        background-image: url("./img/cyber.jpg");
         min-height: 100%;
         background-position: center;
         background-size: cover;
@@ -53,7 +53,7 @@
       </div>
       <div class="w3-display-middle">
         <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-        <hr class="w3-border-grey" style="margin: auto; width: 40%" />
+        <hr class="w3-border-grey" style="margin: auto; width: 85%" />
         <p class="w3-large w3-center"><span id="countdown"></span> days left</p>
       </div>
       <div class="w3-display-bottomleft w3-padding-large"></div>
@@ -61,7 +61,7 @@
 
     <script>
       const today = Date.now();
-      const xmas = new Date("12/25/2021");
+      const xmas = new Date("01/01/2022");
       const diffTime = Math.abs(xmas - today);
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
       $("#countdown").html(diffDays);
