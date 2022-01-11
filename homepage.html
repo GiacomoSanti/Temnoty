@@ -26,14 +26,20 @@
         height: 100vh;
         background-color: black;
       }
-      @media screen and (max-width: 992px) {
-        .imgonhover {
-        filter: brightness(1) !important;
-      }
-      }
+
       .imgonhover {
         filter: brightness(0);
       }
+      
+      @media screen and (max-width: 992px) {
+
+        .imgonhover {
+          filter: brightness(1) !important;
+        }
+
+      }
+
+      
 
       .imgonhover:hover {
         filter: brightness(1);
