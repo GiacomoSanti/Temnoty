@@ -57,6 +57,9 @@
         overflow: hidden;
         background-color: black;
       }
+      button:focus {
+        outline:0;
+      }
     </style>
   </head>
   <body>
@@ -67,13 +70,13 @@
       <div class="w3-display-topleft w3-padding-large w3-xlarge">
         <a href="./homepage.html" style="text-decoration: none">Temnoty</a>
       </div>
-      <div class="w3-xxlarge" style="margin-left: 15vw; height: 3vw">
-        Calendario eventi
+      <div class="w3-xxlarge" style="margin-left: 15vw; height: 3vw; padding-left:25%">
+        Calendario_eventi
       </div>
-    </div>
+    <div style="padding-top:10%">
     <div
       class="d-flex flex-row"
-      style="height: 20vh; width: 90vw; margin-top: 3vh; margin-left: 5vw"
+      style="height: 20vh; width: 90vw; margin-top: 3vh; margin-left: 5vw;"
     >
       <div
         style="
@@ -118,11 +121,13 @@
     </div>
     <button
       style="
-        background-color: darkgrey;
+        border: 2px solid white;
+        background-color: black;
         width: 20vw;
         margin-left: 5vw;
         margin-top: 3vw;
-        border: white;
+        color:white;
+        border-color:white;
       "
       type="button"
       class="collapsible"
@@ -161,6 +166,8 @@
         </div>
       </div>
     </div>
+  </div>
+  </div>
     <script>
       var coll = document.getElementsByClassName("collapsible");
       var i;
